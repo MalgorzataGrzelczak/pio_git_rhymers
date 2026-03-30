@@ -35,3 +35,4 @@ class RhymersDemo {
     }
 
 }
+//Nie bylo potrzeby poprawy, projekt jest poprawny
