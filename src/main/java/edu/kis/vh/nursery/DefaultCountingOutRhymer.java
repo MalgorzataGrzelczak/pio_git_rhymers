@@ -11,7 +11,11 @@ public class DefaultCountingOutRhymer {
     private static final int EMPTY = -1;
     private final int[] numbers = new int[ARRAY_LENGTH];
 
-    public int total = EMPTY;
+    private int total = EMPTY;
+
+    public int getTotal() {
+        return total;
+    }
 
     /**
      * Adds an integer to the stack if it is not full.

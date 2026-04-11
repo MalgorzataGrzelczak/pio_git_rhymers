@@ -11,10 +11,10 @@ public class IntLinkedList {
         }
 
     }
-    private static final int DEFAULT_RETURN = -1;
+    public static final int DEFAULT_RETURN = -1;
 
-    Node last;
-    int i;
+    private Node last;
+    private int i;
 
     public void push(int i) {
         if (last == null)
